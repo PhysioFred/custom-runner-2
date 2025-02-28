@@ -1,8 +1,12 @@
-name: You get what you REPEAT
+name: Must run on custom runner
+
 on: push
-job:
-    init:
-        runs-on: self-hosted
-        steps:
-            - run: echo "Hello World, it's time to repeat this lab"
-            - run: echo "Hostname is $($HOSTNAME)"
+
+jobs:
+  init:
+    runs-on: self-hosted
+    steps:
+      - run: echo "Hello there from down under"
+      - run: echo $HOSTNAME
+      - run: echo $SHELL
+      - run: echo $PWD
