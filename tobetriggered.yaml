@@ -1,8 +1,8 @@
 name: You get what you REPEAT, and repeat it again
 on: push
 jobs:
-    init:
-        runs-on: self-hosted
-        steps:
-            - run: echo "Hello World, it's time to repeat this lab"
-            - run: echo "Hostname is $HOSTNAME"
+  init:
+    runs-on: self-hosted
+    steps:
+      - run: echo "Hello World, it's time to repeat this lab"
+      - run: echo "Hostname is $HOSTNAME"
