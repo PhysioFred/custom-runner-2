@@ -1,6 +1,6 @@
 name: You get what you REPEAT
 on: push
-job:
+jobs:
     init:
         runs-on: self-hosted
         steps:
