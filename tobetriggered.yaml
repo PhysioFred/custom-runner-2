@@ -1,4 +1,4 @@
-name: You get what you REPEAT
+name: You get what you REPEAT, and repeat it again
 on: push
 jobs:
     init:
